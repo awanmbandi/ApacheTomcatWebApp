@@ -9,7 +9,7 @@
     <packaging>war</packaging>
 
     <name>myecommerce</name>
-    <description>Sample E-Commerce Web App</description>
+    <description>E-Commerce Web App</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
