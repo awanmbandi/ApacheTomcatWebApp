@@ -1,7 +1,7 @@
 #!/bin/bash
 for i in `seq 1 10`;
 do
-  HTTP_CODE=`curl --write-out '%{http_code}' -o /dev/null -m 10 -q -s http://localhost:8080/login`
+  HTTP_CODE=`curl --write-out '%{http_code}' -o /dev/null -m 10 -q -s http://localhost:8080/webapp`
   if [ "$HTTP_CODE" == "200" ] || [ "$HTTP_CODE" == "302" ]; then
     echo "Successfully accessed application root page with HTTP Code $HTTP_CODE."
     exit 0;
