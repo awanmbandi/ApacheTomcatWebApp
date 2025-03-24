@@ -5,7 +5,7 @@ phases:
       java: corretto11
     commands:
       - echo "Installing dependencies and setting up environment..."
-      - cp ./settings.xml /root/.m2/settings.xml
+      # - cp ./settings.xml /root/.m2/settings.xml
   # pre_build:
   #   commands:
   #     - echo "Running pre-build tasks..."
