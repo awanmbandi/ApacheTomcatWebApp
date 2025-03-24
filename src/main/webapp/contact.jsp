@@ -11,7 +11,7 @@
     <!-- Navigation Bar -->
     <header>
         <nav class="navbar">
-            <a href="index.jsp" class="logo">MyEcommerce</a>
+            <a href="index.jsp" class="logo">Oak Essentials</a>
             <ul class="nav-links">
                 <li><a href="index.jsp">Home</a></li>
                 <li><a href="products.jsp">Products</a></li>
@@ -38,7 +38,7 @@
     </section>
 
     <footer>
-        <p>© 2025 MyEcommerce. All rights reserved.</p>
+        <p>© 2025 Oak Essentials. All rights reserved.</p>
     </footer>
 
 </body>
